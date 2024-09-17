@@ -1,19 +1,19 @@
 <!--Startpage by Tayumpee-->
-<!--facebook.com/yourwaterlord-->
+<!--Modified by Vince-->
 
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<title>お帰りなさい, ANON</title>
+		<title>お帰りなさい, ビンス</title>
 		<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
-		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<script type="text/javascript" src="https://4get.ca/api"></script>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
 		<script type="text/javascript">
 			
 			$(document).ready(function(){
 				  //URL of the RSS feed
 				  $(".marquee").toggleClass("microsoft");
-				  var feed_url = 'http://www.gamespot.com/feeds/news/';
+				  var feed_url = 'https://citizenfreepress.com/feed/';
 				$.ajax({
 				  url      : 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent(feed_url),
 				  dataType : 'json',
@@ -53,8 +53,8 @@
 					<marquee id="news1" class="marquee2"></marquee>
 				</div>
 				<div class="searchbar">
-					<form name="form1" action="http://google.com/search" target="_blank" method="get" >
-						<input type="text" autocomplete="off" placeholder="google search..." name="q" class="searchinput"></input>
+					<form name="form1" action="https://4get.ca/" target="_blank" method="get" >
+						<input type="text" autocomplete="off" placeholder="4get search..." name="q" class="searchinput"></input>
 					</form>
 				</div>
 			</div>
